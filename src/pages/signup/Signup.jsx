@@ -1,4 +1,4 @@
-import { useInsertionEffect, useState } from "react";
+import { useState } from "react";
 
 import styles from "./Signup.module.css";
 import { useSignup } from "../../hooks/useSignup";
