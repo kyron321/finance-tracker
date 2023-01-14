@@ -33,7 +33,7 @@ export const useLogin = () => {
 
   useEffect(() => {
     return () => setIsCancelled(true);
-  });
+  }, []);
 
   return { login, isPending, error };
 };
